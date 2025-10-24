@@ -1,0 +1,19 @@
+#leaf-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    perspective: 1000px;
+    pointer-events: none;
+    z-index: 9999 !important;
+    overflow: hidden;
+}
+
+.leaf {
+    position: absolute;
+    pointer-events: none;
+    will-change: transform;
+    transform-style: preserve-3d;
+    z-index: 9999 !important;
+}
