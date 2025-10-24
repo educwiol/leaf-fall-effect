@@ -2,7 +2,7 @@ const colors = ['#D2691E', '#FF6347', '#FF8C00', '#FFD700', '#CD853F', '#A0522D'
 
 const leafContainer = document.createElement('div');
 leafContainer.id = 'leaf-container';
-leafContainer.style.cssText = 'position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; perspective: 1000px; pointer-events: none; z-index: 2147483647; overflow: hidden;';
+leafContainer.style.cssText = 'position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; perspective: 1000px; pointer-events: none; z-index: 2147483647; overflow: hidden;'; //you can remove this line if ya want
 document.body.appendChild(leafContainer);
 
 let windForce = 0;
